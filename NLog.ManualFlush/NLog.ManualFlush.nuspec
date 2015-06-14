@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NLog.ManualFlush</id>
+    <version>$version$</version>
+    <title>NLog.Web</title>
+    <authors>NLog</authors>
+    <owners>NLog</owners>
+    <licenseUrl>https://github.com/NLog/NLog.ManualFlush/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/NLog/NLog.ManualFlush</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows you to control when NLog flushes</description>
+    <releaseNotes>Upgrade to NLog 4.0.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>nlog target flush manual wrapper</tags>
+  </metadata>
+</package>
