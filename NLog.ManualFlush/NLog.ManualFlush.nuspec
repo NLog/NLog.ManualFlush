@@ -3,7 +3,7 @@
   <metadata>
     <id>NLog.ManualFlush</id>
     <version>$version$</version>
-    <title>NLog.Web</title>
+    <title>NLog.ManualFlush</title>
     <authors>NLog</authors>
     <owners>NLog</owners>
     <licenseUrl>https://github.com/NLog/NLog.ManualFlush/raw/master/LICENSE</licenseUrl>
