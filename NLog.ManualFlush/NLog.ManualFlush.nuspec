@@ -12,6 +12,7 @@
     <description>Allows you to control when NLog flushes</description>
     <releaseNotes>Upgrade to NLog 4.0.</releaseNotes>
     <copyright>Copyright 2015</copyright>
+    <iconUrl>http://nlog-project.org/N.png</iconUrl>
     <tags>nlog target flush manual wrapper</tags>
   </metadata>
 </package>
