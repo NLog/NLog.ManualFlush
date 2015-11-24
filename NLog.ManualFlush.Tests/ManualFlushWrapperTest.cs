@@ -79,7 +79,26 @@ namespace NLog.ManualFlush.Tests
 			Assert.Equal(2, debugTarget.Counter);
 		}
 
-		[Fact]
+
+	    [Fact]
+	    public void Empty_clears_all()
+	    {
+	        var logger = LogManager.GetLogger("A");
+	        logger.Debug("Test");
+	        logger.Debug("Test2");
+
+            var wrapper = LogManager.Configuration.FindTargetByName("Manual") as ManualFlushWrapper;
+
+            Assert.NotNull(wrapper);
+            
+            wrapper.EmptyLogs();
+
+	        LogManager.Flush();
+
+	        Assert.Equal(0, debugTarget.Counter);
+	    }
+
+	    [Fact]
 		public void Flushing_Multiple_Time_Only_Writes_New_Log_Entries_To_Wrapped_Target_Once()
 		{
 			var logger = LogManager.GetLogger("A");
